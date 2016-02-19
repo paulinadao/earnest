@@ -25,3 +25,4 @@ python -m unittest test
 * Users should not be able to proceed without selecting a state. This results in a 500. The service should also return a 422 in case the UI is not forcing validation
 * Validation is necessary on the input fields. Users should only be able to enter in numbers. Additionally, the service should return a 422 in case the UI is failing.
 * Users should not be able to submit a quantity that is greater than the in stock amount.
+* Adding ids, data-elements, or something to have Selenium more easily identify columns would be helpful for better implementation of the page object model
